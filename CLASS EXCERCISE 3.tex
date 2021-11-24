@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{rotating}
+\usepackage[table]{xcolor}
+
+\begin{document}
+	
+	\begin{sidewaystable}[ht!]
+		\begin{center}
+			\caption{First Semester CSC 101 Time-Table}
+			\label{tab:table1}
+			
+			\begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+				\cellcolor{blue!16} \textbf{Course Code} & \cellcolor{blue!16} \textbf{Status} & \cellcolor{blue!16} \textbf{Unit} &\cellcolor{blue!16} \textbf{Time} &\cellcolor{green!40} \textbf{Monday} &\cellcolor{green!40} \textbf{Tuesday} &\cellcolor{green!40} \textbf{Wednesday} &\cellcolor{green!40} \textbf{Thursday} &\cellcolor{green!40} \textbf{Friday}\\
+				\hline
+				\cellcolor{pink!50}GST 101  & C & 2 & 9 -10AM & PHY 101 & MTH 101 & - &  - & -\\
+				\cellcolor{green!30}GST 103 & C & 2 & 10-11AM & PHY 101 & MTH101 & - &- &-\\
+				\cellcolor{pink!50}GST 108 & C & 2 & 11-12AM & CHEM 101 & GST 103 & - & GST 108 & GST 101\\
+				\cellcolor{green!30}CHEM 101 & C & 2 & 12-1AM & CHEM 101 & GST 103 & PHY 101 & GST 108 & GST 101\\
+				\cellcolor{pink!50}CHEM 107 & C & 2 & 1-2:30AM &\cellcolor{black!40} BREAK & \cellcolor{black!40}- & \cellcolor{black!40}- & \cellcolor{black!40}- & \cellcolor{black!40}-\\
+				\cellcolor{green!30} MTH 101 & C & 2 & 2:30 - 3:30PM & MTH 101 & CHEM 107 & CHEM 101 & CSC 101 & PHY 107\\
+				\cellcolor{pink!50} PHY 101 & C & 2 & 3:30 4:30PM & - & CHEM 107 & - & CSC 101 & PHY 107\\
+				\cellcolor{green!30} PHY 107 & C & 2 & 4:30 - 5:30PM & - & CHEM 107 & - & CSC 101 & PHY 107\\
+				\cellcolor{pink!50} CSC 101 & C & 2 & 5 - 6:30PM & - & - & - & - & -\\
+				\hline
+				\end{tabular}
+		\end{center}
+	\end{sidewaystable}
+\end{document}
